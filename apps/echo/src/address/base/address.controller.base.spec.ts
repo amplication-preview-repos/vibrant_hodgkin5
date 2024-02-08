@@ -23,7 +23,9 @@ const CREATE_INPUT = {
   city: "exampleCity",
   createdAt: new Date(),
   id: "exampleId",
+  state: "exampleState",
   updatedAt: new Date(),
+  zip: 42,
 };
 const CREATE_RESULT = {
   address_1: "exampleAddress_1",
@@ -31,7 +33,9 @@ const CREATE_RESULT = {
   city: "exampleCity",
   createdAt: new Date(),
   id: "exampleId",
+  state: "exampleState",
   updatedAt: new Date(),
+  zip: 42,
 };
 const FIND_MANY_RESULT = [
   {
@@ -40,7 +44,9 @@ const FIND_MANY_RESULT = [
     city: "exampleCity",
     createdAt: new Date(),
     id: "exampleId",
+    state: "exampleState",
     updatedAt: new Date(),
+    zip: 42,
   },
 ];
 const FIND_ONE_RESULT = {
@@ -49,7 +55,9 @@ const FIND_ONE_RESULT = {
   city: "exampleCity",
   createdAt: new Date(),
   id: "exampleId",
+  state: "exampleState",
   updatedAt: new Date(),
+  zip: 42,
 };
 
 const service = {

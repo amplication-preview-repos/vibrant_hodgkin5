@@ -6,5 +6,7 @@ export type AddressOrderByInput = {
   city?: SortOrder;
   createdAt?: SortOrder;
   id?: SortOrder;
+  state?: SortOrder;
   updatedAt?: SortOrder;
+  zip?: SortOrder;
 };
